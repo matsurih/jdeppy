@@ -1,5 +1,5 @@
 # jdeppy
-Python wrapper for J.DepP
+Python wrapper for [J.DepP](http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/), fast Japanese Dependency Parser.
 
 # usage
 ```
