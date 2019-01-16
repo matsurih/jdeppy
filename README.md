@@ -2,7 +2,7 @@
 
 Python wrapper for [J.DepP](http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/), fast Japanese Dependency Parser.
 
-# requisites
+# Requisites
 
 You need to install J.DepP. 
 
