@@ -1,4 +1,7 @@
 import subprocess
+from jdeppy.Sentence import Sentence
+from jdeppy.Bunsetsu import Bunsetsu
+from jdeppy.Morph import Morph
 
 
 class JDepP:
