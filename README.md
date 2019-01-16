@@ -1,13 +1,21 @@
 # jdeppy
+
 Python wrapper for [J.DepP](http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/), fast Japanese Dependency Parser.
 
+# requisites
+
+You need to install J.DepP. 
+
+See "Download & Setup" section in http://www.tkl.iis.u-tokyo.ac.jp/~ynaga/jdepp/ 
+
 # Install
+
 ```
 pip install jdeppy
-
 ```
 
 # Usage
+
 ```python
 from jdeppy.JDepP import JDepP
 
