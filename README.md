@@ -22,12 +22,12 @@ from jdeppy.JDepP import JDepP
 jdepp = JDepP()
 result = jdepp.parse('今日はいい天気ですね')
 
-# result: list of Sentences
-# Sentence: s_id: int and blist: list of Bunsetsus
-# Bunsetsu: b_id: int and dep_id: int and mlist: list of Morphs
+# result => list of Sentences
+# Sentence => s_id: int and blist: list of Bunsetsus
+# Bunsetsu => b_id: int and dep_id: int and mlist: list of Morphs
 #   - b_id means 'Bunsetsu ID'
 #   - dep_id means 'Bunsetsu ID this Bunsetsu depends on'
-# Morph: surface: str and feature: list of strs
+# Morph => surface: str and feature: list of strs
 #   - feature's format is the same as mecab-python3
 
 ```
