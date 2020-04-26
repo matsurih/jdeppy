@@ -27,7 +27,7 @@ class JDepP:
                 if sentence:
                     jdepp_results.append(sentence)
                 sentence_id = int(jdepp_line.split(';')[0].split(':')[1].replace(' ', ''))
-                sentence = Sentence(s_id=sentence_id, blist=[])
+                sentence = Sentence(s_id=sentence_id-1, blist=[])
                 continue
 
             elif jdepp_line.startswith('*'):
@@ -47,5 +47,11 @@ class JDepP:
                 morph = Morph(surface=surf, feature=args.split(','))
                 bunsetsu.append_morph(morph)
                 continue
+
+        for s in jdepp_results:
+            for b in s.blist:
+                if b.dep_id == -1:
+                    continue
+                jdepp_results[s.s_id].blist[b.dep_id].append_child(b.b_id)
 
         return jdepp_results

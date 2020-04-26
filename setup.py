@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jdeppy',
-    version='1.1',
+    version='1.2',
     description='Python wrapper for J.DepP',
     url='https://github.com/matsurihime/jdeppy',
     author='matsurihime',
