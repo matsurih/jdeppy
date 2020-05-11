@@ -30,7 +30,7 @@ class JDepP:
                 sentence = Sentence(s_id=sentence_id-1, blist=[])
                 continue
 
-            elif jdepp_line.startswith('*'):
+            elif jdepp_line.startswith('* '):
                 if bunsetsu:
                     sentence.append_bunsetsu(bunsetsu)
                 b_id, dep_id = tuple([int(c.replace('D', '')) for c in jdepp_line.split(' ') if c != '*'])
