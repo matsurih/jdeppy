@@ -39,7 +39,7 @@ Jdeppy expects to use IPADIC, but you can also use UniDic. Pass `dic_type="unidi
 from jdeppy.JDepP import JDepP
 
 jdepp = JDepP(dic_type='unidic')
-``
+```
 
 # License
 This software is released under the MIT License, see LICENSE.txt.
