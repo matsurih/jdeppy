@@ -35,7 +35,7 @@ result = jdepp.parse('今日はいい天気ですね')
 ## Unidic Support
 Jdeppy expects to use IPADIC, but you can also use UniDic. Pass `dic_type="unidic"` argument to the JDepP class constructor (default dic_type is `ipadic`).
 
-```
+```python
 from jdeppy.JDepP import JDepP
 
 jdepp = JDepP(dic_type='unidic')
